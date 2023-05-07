@@ -1,0 +1,98 @@
+.carousel{
+  /* width:-12%; */
+}
+.image_size{
+  height: 400px;
+  width: 300px;
+}
+
+h1 {
+  margin: 1rem auto 4rem;
+}
+
+.product--image {
+  width: 70%;
+  height: 20em;
+  object-fit:contain;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width:80rem;
+  max-height: 2000rem;
+  /* margin: auto 1rem; */
+  margin-bottom: 2rem;
+  margin-top: 0rem;
+  text-align: center;
+  font-family: arial;
+  background-color: aliceblue;
+  /* filter: blur(4px); */
+}
+.info{
+  /* border: 10px solid black; */
+  width: 450px;
+  margin-left: 12rem;
+  padding-top: 30px;
+  color: black;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+.chatbot-open {
+  filter: blur(4px);
+}
+
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  color:#000;
+}
+.buttons{
+margin-left: 12px;
+margin-right: 12px;
+}
+.buttons {
+margin-left: 12px;
+margin-right: 12px;
+display: inline-block;
+background-image: linear-gradient(to bottom, #293b5f 0%, #0c1b48 100%);
+text-decoration: none;
+border: none;
+border-radius: 8px;
+font-size: 18px;
+font-weight: bold;
+padding: 10px 20px;
+text-align: center;
+text-transform: uppercase;
+transition: 0.5s;
+color: white;
+box-shadow: 0 0 20px #eee;
+}
+
+.buttons:hover {
+background-image: linear-gradient(to bottom, #0a9d93 0%, #190455 100%);
+
+}

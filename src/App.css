@@ -1,0 +1,158 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 1em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+#bot{
+  /* margin-right: 70%; */
+  margin-top: -40%;
+  /* margin-top: S1%; */
+  backdrop-filter: blur(8px);
+  /* position: absolute; */
+}
+
+
+#header{
+  /* border: 10px solid black; */
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  width: 100.05vw;
+  display: flex;
+  /* align-items: center; */
+  height: 3.1rem;
+  /* align-items: center;
+  flex-direction: column; */
+  /* background-color: antiquewhite; */
+  /* margin-left: -11.99%; */
+  margin-left: -9.35%;
+  margin-top: -2.8%;
+  margin-bottom: 3rem;
+  background: rgb(12,110,147);
+  background: radial-gradient(circle, rgba(12,110,147,1) 16%, rgba(9,21,34,1) 81%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#8DE9D5", endColorstr="#32C4C0", GradientType=1 );
+/* background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); */
+  /* color: black; */
+  /* padding: 0.8%; */
+  font-weight: bold;
+  font-size:x-large;
+  /* font-family: 'Edu NSW ACT Foundation', cursive; */
+/* font-family: 'Merriweather', serif; */
+  /* font-family: 'Roboto', serif; */
+  /* width:100v */
+}
+.header1{
+  color: white;
+  margin-right: 68%;
+  /* padding-top: -3%; */
+  margin-left:1%;
+  margin-top: 0.4%;
+  font-family: 'Merriweather', sans-serif;
+  /* width: 100%; */
+  
+}
+.header2{
+  /* justify-content: ; */
+  /* margin-left: 70%; */
+}
+li {
+  list-style-type: none;
+}
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav li:last-child {
+  margin-right: 0;
+}
+
+nav a,
+nav select {
+  color: #fff;
+  display: block;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 10px;
+  text-decoration: none;
+  
+}
+
+nav select {
+  /* background-color: #444;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin-top: 1.5%; */
+  background-color: #0d193e;
+  border: 2px solid white;
+  border-radius: 10px;
+  margin-top: 4.5px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  font-size: 16px;
+  /* width: 80%; */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  text-align: center;
+}
+nav select:hover {
+  background-color: #555;
+}
+
+nav select option {
+  background-color: #444;
+  color: #fff;
+}
+
+nav select option:hover {
+  background-color: #555;
+}
