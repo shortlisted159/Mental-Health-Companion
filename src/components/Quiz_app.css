@@ -228,13 +228,14 @@ text-decoration: none;
     font-weight: bolder;
     font-size: larger;
     color: black;
-    border: 2px solid #000000;
+    /* border: 1px solid #000000; */
     margin-top: 12px;
     border-radius: 12px;
     width: 50%;
     margin-left: 25%;
     padding: 0.5em;
-    /* background-color: blue; */
-    /* background: transparent ; */
-    background: rgba(251, 213, 147, 0.3)
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+    /* background-blend-mode:darken; */
+    box-shadow: 0 0 20px #180505;
   }

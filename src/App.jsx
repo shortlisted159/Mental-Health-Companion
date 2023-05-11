@@ -31,7 +31,7 @@ function App() {
   return (
     <div className="App">
       <div id="header">
-        <h4 className="header1">Mental Health App</h4>
+        <h4 className="header1">Mental Health Companion</h4>
         <nav>
           <li>
             <select value={displayComponent} onChange={handleSelectChange}> 

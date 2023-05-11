@@ -64,7 +64,7 @@
   /* background-color: antiquewhite; */
   /* margin-left: -11.99%; */
   margin-left: -9.35%;
-  margin-top: -2.8%;
+  margin-top: -2.2%;
   margin-bottom: 3rem;
   background: rgb(12,110,147);
   background: radial-gradient(circle, rgba(12,110,147,1) 16%, rgba(9,21,34,1) 81%);
@@ -114,6 +114,8 @@ nav select {
   line-height: 20px;
   padding: 10px;
   text-decoration: none;
+  height: 40px;
+  width: 120px;
   
 }
 
