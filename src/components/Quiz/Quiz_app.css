@@ -91,7 +91,7 @@ background-image: linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%
     box-shadow: 3px 3px 2px 1px rgb(127, 109, 109);
     font-size: larger;
     font-weight: bold;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Georgia, Times, 'Times New Roman', serif;
     transition: 0.2s;
     width:100px;
     position: absolute;
@@ -121,6 +121,7 @@ background-image: linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%
     font-size: 1.2rem;
     font-weight: bold;
     margin-bottom: 20px;
+  
   }
 /*   
   #question-number {
@@ -182,7 +183,7 @@ background-image: linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%
     box-shadow: 5px 5px #3c3636;
     font-size: large;
     font-weight: 600;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', sans-serif;
     margin-left: 25%;
     /* background-color: turquoise transparent; */
     background-color: #FFDEE9;

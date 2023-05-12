@@ -2,8 +2,8 @@ export const QuizData = [
     // depression
     {
         question: "In the past one month, how often have you felt overwhelmingly sad?",
-        options:["Not at all","More than half the days","Nearly every day"],
-        answer: [1,2],
+        options:["Not at all","At times","More than half the days","Nearly every day"],
+        answer: [2,3],
         illness: "Depression"
     },
     {

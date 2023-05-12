@@ -2,11 +2,11 @@ import React from "react";
 import "./ExploreSec.css";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import Product from "./LandingPg";
-import { productData, responsive } from "../Data/dataCarousel";
+import Product from "../LandingPg/LandingPg";
+import { productData, responsive } from "../../Data/dataCarousel";
 import { useState } from "react";
-import ChatBot from "./ChatBot";
-import Quiz from "./Quiz";
+import ChatBot from "../ChatBot";
+import Quiz from "../Quiz/Quiz";
 
 // const ExploreSec = () => {
 //   return (
