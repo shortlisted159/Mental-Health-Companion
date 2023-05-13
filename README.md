@@ -24,7 +24,7 @@ npx create-react-app .
 ```
 -This installs all the necessary node modules as well, then ->
 ```bash
-npm react-multi-carousel
+npm i react-multi-carousel
 ```
 -If cloned from git
 ```bash
