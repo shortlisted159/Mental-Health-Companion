@@ -12,7 +12,6 @@ function App() {
   return (
     <div className="App">
       <Header onSelectChange={handleSelectChange} displayComponent={displayComponent} />
-      {/* <div>{renderSelectedComponent()}</div> */}
       <Explore/>
     </div>
   );
