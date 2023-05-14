@@ -5,7 +5,7 @@ import { MainContainer, ChatContainer, MessageList, Message, MessageInput, Typin
 import { API_KEY } from './config.js';
 
 
-const systemMessage = { //  Explain things like you're talking to a software professional with 5 years of experience.
+const systemMessage = { 
   "role": "system", "content": "Explain things like you're talking to a software professional with 2 years of experience."
 }
 
