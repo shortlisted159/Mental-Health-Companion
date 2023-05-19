@@ -42,11 +42,8 @@
 }
 
 #bot{
-  /* margin-right: 70%; */
   margin-top: -40%;
-  /* margin-top: S1%; */
   backdrop-filter: blur(8px);
-  /* position: absolute; */
 }
 
 
