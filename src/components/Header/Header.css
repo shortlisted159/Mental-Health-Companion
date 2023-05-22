@@ -81,27 +81,4 @@
     background-color: #555;
   }
   
-  /* Media query for laptop screens */
-  /* @media screen and (min-width: 1024px) and (max-width: 1440px) {
-    .header1 {
-      margin-right: 60%;
-    }
-  } */
-  
-  /* for desktop screens */
-  /* @media screen and (min-width: 1441px) {
-    .header1 {
-      margin-right: 50%;
-    }
-  } */
-  @media screen and (max-width: 500px) {
-    .header1 {
-      float: none;
-      display: block;
-      text-align: left;
-    }
-    .header-right {
-      float: none;
-    }
-  }
   
