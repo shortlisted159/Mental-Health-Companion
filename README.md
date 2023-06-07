@@ -34,3 +34,4 @@ npm i
 npm i react-multi-carousel
 ```
 ***** Not responsive
+***** Runs on OpenAi api trial version and might not respond after the api exhaustion limit
