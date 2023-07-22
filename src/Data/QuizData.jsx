@@ -1,7 +1,7 @@
 export const QuizData = [
     // depression
     {
-        question: "In the past one month, how often have you felt overwhelmingly sad?",
+        question: "In the past month, how often have you felt overwhelmingly sad?",
         options:["Not at all","At times","More than half the days","Nearly every day"],
         answer: [2,3],
         illness: "Depression"
@@ -14,7 +14,7 @@ export const QuizData = [
     },
     {
         question: "How is your sleep?",
-        options:["Sleeping as usual","Slight difficulty", "A lot of difficulty"],
+        options:["Sleeping as usual","Slight difficulty", "A lot of difficulties"],
         answer: [2],
         illness: "Depression"
     },
@@ -26,7 +26,7 @@ export const QuizData = [
     },
     {
         question: "Have you been feeling tired or having little energy?",
-        options:["Not at all","Almost everyday","I feel hopeless and I don't feel like working at all" ],
+        options:["Not at all","Almost every day","I feel hopeless and I don't feel like working at all" ],
         answer:[1,2],
         illness: "Depression"
     },
